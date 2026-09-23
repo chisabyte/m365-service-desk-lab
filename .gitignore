@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+.env
+.env.*
+secrets/
+private/
+unsanitized/
+originals/
+evidence-original/
+
