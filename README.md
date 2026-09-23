@@ -7,7 +7,7 @@ Hands-on Microsoft 365 and Microsoft Entra support portfolio documenting inciden
 
 ## Environment
 
-The cases use a personal Microsoft 365 Business Basic lab. Evidence shows the Microsoft 365 admin centre, Microsoft Entra sign-in records, Exchange Online mailboxes, Outlook, Microsoft Teams, SharePoint, OneDrive and Microsoft Authenticator. [Environment](docs/lab-environment.md) · [Licensing and limits](docs/licensing.md)
+The cases use a personal Microsoft 365 Business Basic lab. Evidence shows the Microsoft 365 admin centre, Microsoft Entra sign-in records, Exchange Online mailboxes, mail-flow rules and message trace, Microsoft 365 Service Health, Outlook, Teams, SharePoint, OneDrive and Microsoft Authenticator. [Environment](docs/lab-environment.md) · [Licensing and limits](docs/licensing.md)
 
 ## Cases
 
@@ -27,9 +27,9 @@ Maya's Finance request covers Business Basic licensing, group and Team membershi
 
 Owen's staged offboarding covers sign-in containment, mailbox conversion, a lab-administrator handover copy of a OneDrive file, removal of two access groups, licence removal and post-change checks. The evidence does not establish manager access or endpoint wipe. [Open case and evidence →](tickets/HSP-1004-user-offboarding.md)
 
-### HSP-1005 — Microsoft 365 Service Incident
+### HSP-1005 — Multi-User Email Delivery Incident
 
-**Status:** Not started.
+Priya and Maya's staged messages to Alex failed. Message trace identified a shared Exchange Online mail-flow rule, while the visible Service Health advisories had different symptoms. The rule was disabled; new messages reached Alex and appeared as **Delivered** in a later trace. [Open case and evidence →](tickets/HSP-1005-multi-user-email-delivery.md)
 
 ## How to read the evidence
 
@@ -43,6 +43,6 @@ Each case opens with a 30-second summary, followed by clickable primary screensh
 | HSP-1002 | Complete, with verification scope stated |
 | HSP-1003 | Complete |
 | HSP-1004 | Complete within the documented M365 scope |
-| HSP-1005 | Not started |
+| HSP-1005 | Complete, with rule-deletion evidence limit stated |
 
-**Publication milestone:** five completed, reviewed and sanitised Microsoft 365 support cases. This repository remains private until that milestone and a final review.
+**Publication milestone:** five completed, reviewed and sanitised Microsoft 365 support cases. The five cases are documented locally; final factual and screenshot review is required before public release.
