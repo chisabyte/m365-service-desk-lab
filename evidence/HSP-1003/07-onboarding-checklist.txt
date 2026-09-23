@@ -1,0 +1,20 @@
+HSP-1003 — Maya Chen Onboarding Checklist
+
+User: Maya Chen
+Department: Finance
+Scenario: New starter onboarding
+
+Completed:
+[X] Microsoft 365 user created
+[X] Microsoft 365 Business Basic licence assigned
+[X] Added to HSP-All-Staff
+[X] Added to HSP-Finance
+[X] Added to HSP Finance Microsoft Team
+[X] Exchange Online mailbox provisioned
+[X] Outlook access verified as Maya
+[X] Microsoft Teams access verified as Maya
+[X] HSP Finance SharePoint access verified as Maya
+[X] Finance onboarding document opened successfully as Maya
+
+Lab note:
+Maya Chen is a synthetic user in the fictional Harbour Street Partners environment.
