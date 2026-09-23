@@ -1,0 +1,17 @@
+HSP-1004 — Device Offboarding Note
+
+User: Owen Blake
+
+Device status:
+No managed endpoint was enrolled or assigned to Owen Blake in this Microsoft 365 Business Basic lab.
+
+Actions not performed:
+- No Intune retire action
+- No remote wipe
+- No device ownership transfer
+
+Reason:
+Microsoft Intune device management was not available/configured in this lab environment.
+
+Lab note:
+This limitation is documented rather than simulated or presented as completed work.
