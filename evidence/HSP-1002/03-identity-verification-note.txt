@@ -1,0 +1,15 @@
+HSP-1002 — Identity Verification
+
+User: Priya Nair
+Request: MFA recovery after replacement of previous phone
+
+Verification performed:
+- User identity matched to the correct Microsoft 365 account.
+- Fictional manager approval obtained from Alex Romero, Office Manager.
+- Approval recorded before MFA recovery action.
+
+Result:
+Identity verification completed successfully.
+
+Lab note:
+Alex Romero and Priya Nair are synthetic users in the fictional Harbour Street Partners environment.
