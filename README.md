@@ -31,6 +31,10 @@ Owen's staged offboarding covers sign-in containment, mailbox conversion, a lab-
 
 Priya and Maya's staged messages to Alex failed. Message trace identified a shared Exchange Online mail-flow rule, while the visible Service Health advisories had different symptoms. The rule was disabled; new messages reached Alex and appeared as **Delivered** in a later trace. [Open case and evidence →](tickets/HSP-1005-multi-user-email-delivery.md)
 
+### HSP-1006 — Shared Mailbox: Full Access Works but Send As Is Missing
+
+Priya could open and read the Accounts shared mailbox but could not send from the Accounts address. Exchange Online PowerShell confirmed that Full Access was present while Send As was missing. Send As was granted separately and verified after propagation by successfully delivering a message from Accounts. [Open case and evidence →](tickets/HSP-1006-shared-mailbox-send-as.md)
+
 ## How to read the evidence
 
 Each case opens with a 30-second summary, followed by clickable primary screenshots and a fuller service-desk record. Supporting baseline and staging images sit in collapsed sections. Captions describe what the image shows; written notes are identified as lab records. [Ticket standard](docs/ticket-standard.md)
@@ -44,5 +48,6 @@ Each case opens with a 30-second summary, followed by clickable primary screensh
 | HSP-1003 | Complete |
 | HSP-1004 | Complete within the documented M365 scope |
 | HSP-1005 | Complete, with rule-deletion evidence limit stated |
+| HSP-1006 | Complete |
 
-**Publication milestone:** five completed, reviewed and sanitised Microsoft 365 support cases. The five cases are documented locally; final factual and screenshot review is required before public release.
+**Publication milestone:** six completed Microsoft 365 support cases. HSP-1001 to HSP-1006 are documented with investigation, remediation and verification evidence.
