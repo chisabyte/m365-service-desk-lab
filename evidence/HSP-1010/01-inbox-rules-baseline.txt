@@ -1,0 +1,12 @@
+HSP-1010 — Inbox Rule Baseline
+
+Command executed before staging the incident:
+
+Get-InboxRule -Mailbox priya.nair@DanielChisasuraTech.onmicrosoft.com |
+    Select-Object Name,Enabled,Priority,Description
+
+Observed result:
+No inbox rules were returned for Priya Nair before the staged HSP-1010 rule was created.
+
+Evidence note:
+The original command produced no console rows, so there was no command output to preserve. This note records the observed baseline and was created after the check for documentation purposes.

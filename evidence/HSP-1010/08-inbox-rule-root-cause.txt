@@ -1,0 +1,12 @@
+
+
+Name                 : HSP-1010 Staged Missing Mail
+Enabled              : True
+Priority             : 1
+SubjectContainsWords : {HSP-1010 Missing Mail Test}
+DeleteMessage        : True
+Description          : If the message:
+                           the message includes specific words in the subject 'HSP-1010 Missing Mail Test'
+                       Take the following actions:
+                           delete the message
+                           and stop processing more rules on this message

@@ -35,6 +35,10 @@ Priya and Maya's staged messages to Alex failed. Message trace identified a shar
 
 Priya could open and read the Accounts shared mailbox but could not send from the Accounts address. Exchange Online PowerShell confirmed that Full Access was present while Send As was missing. Send As was granted separately and verified after propagation by successfully delivering a message from Accounts. [Open case and evidence →](tickets/HSP-1006-shared-mailbox-send-as.md)
 
+### HSP-1010 — Single-User Missing-Mail / Inbox-Rule Investigation
+
+Priya reported that an expected message from Maya was missing from her Inbox. Microsoft 365 Service Health contained an Exchange Online advisory, but its documented impact concerned Outlook add-ins and did not match the symptom. `Get-MessageTraceV2` showed the message as **Delivered**. The message was found in Deleted Items, and `Get-InboxRule` identified an enabled rule that matched the subject and deleted the message. The rule was disabled and a new message from Maya arrived normally in Priya's Inbox. [Open case and evidence →](tickets/HSP-1010-single-user-missing-mail.md)
+
 ## How to read the evidence
 
 Each case opens with a 30-second summary, followed by clickable primary screenshots and a fuller service-desk record. Supporting baseline and staging images sit in collapsed sections. Captions describe what the image shows; written notes are identified as lab records. [Ticket standard](docs/ticket-standard.md)
@@ -49,5 +53,6 @@ Each case opens with a 30-second summary, followed by clickable primary screensh
 | HSP-1004 | Complete within the documented M365 scope |
 | HSP-1005 | Complete, with rule-deletion evidence limit stated |
 | HSP-1006 | Complete |
+| HSP-1010 | Complete |
 
-**Publication milestone:** six completed Microsoft 365 support cases. HSP-1001 to HSP-1006 are documented with investigation, remediation and verification evidence.
+**Publication milestone:** seven completed Microsoft 365 support cases: HSP-1001 to HSP-1006 and HSP-1010. Each completed case documents investigation, remediation and verification evidence.
