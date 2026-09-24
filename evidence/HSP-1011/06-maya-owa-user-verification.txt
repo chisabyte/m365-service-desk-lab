@@ -1,0 +1,10 @@
+HSP-1011 — Maya Outlook on the web verification after remediation
+
+Source: Outlook on the web in Maya Chen's authenticated browser session.
+Record type: Analyst note from the visible user UI. This is not a screenshot or raw diagnostic export.
+
+After the admin centre confirmed Outlook on the web was enabled again, the existing Outlook error page's "Refresh the application" action was used.
+
+Observed result: Outlook loaded a page titled "Mail - Maya Chen - Outlook". The account control showed Maya Chen, the New mail button was available, and her message list displayed existing mail.
+
+This verifies that Maya could access her mailbox in Outlook on the web after the targeted setting was restored. It does not claim a separate send-and-receive test or verify other client protocols.

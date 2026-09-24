@@ -1,0 +1,11 @@
+HSP-1011 — Outlook on the web access restored
+
+Source: Microsoft 365 admin centre, Maya Chen > Mail > Manage email apps.
+Record type: Analyst note from the visible admin UI. This is not raw PowerShell output or screenshot proof.
+
+Before remediation, Maya's Outlook on the web control was unchecked. The Mail tab summarised this as "OWA blocked".
+Action: Checked Outlook on the web and selected Save changes.
+Visible confirmation: "Mailbox email apps info updated".
+Post-save Outlook on the web state: Enabled (checked).
+
+The other email app controls retained their observed states. No licence or Exchange service plan was changed.

@@ -39,6 +39,10 @@ Priya could open and read the Accounts shared mailbox but could not send from th
 
 Priya reported that an expected message from Maya was missing from her Inbox. Microsoft 365 Service Health contained an Exchange Online advisory, but its documented impact concerned Outlook add-ins and did not match the symptom. `Get-MessageTraceV2` showed the message as **Delivered**. The message was found in Deleted Items, and `Get-InboxRule` identified an enabled rule that matched the subject and deleted the message. The rule was disabled and a new message from Maya arrived normally in Priya's Inbox. [Open case and evidence →](tickets/HSP-1010-single-user-missing-mail.md)
 
+### HSP-1011 — Outlook on the Web Client Access Failure
+
+Maya's staged Outlook on the web restriction left her Business Basic licence, Exchange Online service plan and mailbox present. Her first sign-in briefly opened the mailbox, but a fresh load failed twice with **Error 440 / StartupData** while the admin centre showed OWA blocked. Re-enabling that one mailbox setting restored access in Maya's Outlook session. [Open case and evidence →](tickets/HSP-1011-licence-mailbox-client-access.md)
+
 ## How to read the evidence
 
 Each case opens with a 30-second summary, followed by clickable primary screenshots and a fuller service-desk record. Supporting baseline and staging images sit in collapsed sections. Captions describe what the image shows; written notes are identified as lab records. [Ticket standard](docs/ticket-standard.md)
@@ -54,5 +58,6 @@ Each case opens with a 30-second summary, followed by clickable primary screensh
 | HSP-1005 | Complete, with rule-deletion evidence limit stated |
 | HSP-1006 | Complete |
 | HSP-1010 | Complete |
+| HSP-1011 | Complete within the verified Outlook on the web scope |
 
-**Publication milestone:** seven completed Microsoft 365 support cases: HSP-1001 to HSP-1006 and HSP-1010. Each completed case documents investigation, remediation and verification evidence.
+**Publication milestone:** eight completed Microsoft 365 support cases: HSP-1001 to HSP-1006, HSP-1010 and HSP-1011. Each completed case documents investigation, remediation and verification evidence.

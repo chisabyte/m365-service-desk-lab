@@ -1,0 +1,15 @@
+HSP-1011 — Maya Chen email app access baseline
+
+Source: Microsoft 365 admin centre, Maya Chen > Mail > Manage email apps.
+Record type: Analyst note from the visible admin UI. This is not raw PowerShell output or screenshot proof.
+Recorded before staging the HSP-1011 client-access fault.
+
+Outlook on the web: Enabled (checked)
+Outlook desktop (MAPI): Enabled (checked)
+Exchange web services: Enabled (checked)
+Mobile (Exchange ActiveSync): Enabled (checked)
+IMAP: Enabled (checked)
+Pop: Enabled (checked)
+Authenticated SMTP: Disabled (unchecked)
+
+The Microsoft 365 admin centre user list showed Maya assigned Microsoft 365 Business Basic.

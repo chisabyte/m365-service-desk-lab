@@ -1,0 +1,19 @@
+HSP-1011 — Maya Outlook on the web test after staged block
+
+Source: Outlook on the web in the Maya Chen browser session.
+Record type: Analyst note from the visible user UI. This is not a screenshot or raw diagnostic export.
+
+After the admin centre saved Outlook on the web as disabled, Maya completed an interactive sign-in. Outlook initially displayed her mailbox. On a fresh application reload, the mailbox did not load and Outlook displayed:
+
+"Something went wrong. Please try the recommended action below."
+"Refresh the application"
+BootResult: fail
+err: Error: 440
+esrc: StartupData
+et: ServerError
+
+The error page also displayed client, session and request identifiers. They are deliberately omitted from this repository note because they are not needed to show the observed failure.
+
+The initial successful load followed by the failed reload is part of the observed sequence. The UI alone does not establish the internal cause of error 440.
+
+The page's "Refresh the application" action was tried once. It returned to the same error with BootResult fail, Error 440, StartupData and ServerError. The diagnostic details were then collapsed to hide session and request identifiers from any later screenshot.

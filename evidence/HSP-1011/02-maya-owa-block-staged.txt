@@ -1,0 +1,16 @@
+HSP-1011 — staged Outlook on the web block
+
+Source: Microsoft 365 admin centre, Maya Chen > Mail > Manage email apps.
+Record type: Analyst note from the visible admin UI. This is not raw PowerShell output or screenshot proof.
+
+Action: Unchecked Outlook on the web and selected Save changes.
+Visible confirmation: "Mailbox email apps info updated".
+Post-save Outlook on the web state: Disabled (unchecked).
+
+Other visible email app states after saving:
+Outlook desktop (MAPI): Enabled (checked)
+Exchange web services: Enabled (checked)
+Mobile (Exchange ActiveSync): Enabled (checked)
+IMAP: Enabled (checked)
+Pop: Enabled (checked)
+Authenticated SMTP: Disabled (unchecked)

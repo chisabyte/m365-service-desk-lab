@@ -1,0 +1,12 @@
+HSP-1011 — Maya Chen licence and mailbox check during investigation
+
+Source: Microsoft 365 admin centre, Maya Chen user details.
+Record type: Analyst note from the visible admin UI. This is not raw PowerShell output or screenshot proof.
+
+Active users list: Maya Chen has Microsoft 365 Business Basic.
+Licenses and apps tab: Microsoft 365 Business Basic is checked.
+Apps list: Exchange Online (Plan 1) is checked.
+Mail tab: A mailbox storage panel is present for Maya.
+Mail tab after staging: "OWA blocked Other email apps allowed".
+
+These observations support a client access setting investigation. They do not prove the user-visible failure; that requires a separate Maya-context check.
